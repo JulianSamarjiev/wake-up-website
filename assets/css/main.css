@@ -1,0 +1,19 @@
+.hero {
+  background-color: #333; }
+
+.hero-text-box {
+  background-color: #AD0001;
+  text-align: center;
+  margin: 100px auto; }
+
+.hero-text-one {
+  color: #fff;
+  font-size: 5rem;
+  display: block; }
+
+.hero-text-two {
+  color: #fff;
+  font-size: 10rem;
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */

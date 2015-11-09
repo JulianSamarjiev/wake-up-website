@@ -1,0 +1,24 @@
+// Variables
+$black: #333;
+$white: #fff;
+$red: #FF0001;
+$dark-red: #AD0001;
+
+.hero {
+  background-color: $black;
+}
+.hero-text-box {
+  background-color: $dark-red;
+  text-align: center;
+  margin: 100px auto;
+}
+.hero-text-one {
+  color: $white;
+  font-size: 5rem;
+  display: block;
+}
+.hero-text-two {
+  color: $white;
+  font-size: 10rem;
+  display: block;
+}
