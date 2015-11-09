@@ -3,7 +3,7 @@ $black: #333;
 $white: #fff;
 $red: #FF0001;
 $dark-red: #AD0001;
-$dark-blue: #006991;
+$dark-blue: #01A0C7;
 
 .hero {
   background-color: $dark-blue;
@@ -13,7 +13,7 @@ $dark-blue: #006991;
 }
 .hero-text-one {
   color: $white;
-  font-size: 63px;
+  font-size: 10rem;
   display: block;
   text-transform: uppercase;
   font-weight: bold;
@@ -22,10 +22,10 @@ $dark-blue: #006991;
 }
 .hero-text-two {
   color: $white;
-  font-size: 140px;
+  font-size: 22rem;
   display: block;
   text-transform: uppercase;
-  margin-top: -77px;
+  margin-top: -130px;
   font-weight: bold;
   text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.6);
 }
@@ -33,14 +33,21 @@ $dark-blue: #006991;
   text-align: center;
   margin: 100px 0;
   a {
-    color: $dark-red;
-    background: rgba(255,255,255,0.5);
+    color: $white;
+    background: rgba(255,255,255,0.3);
     text-transform: uppercase;
     font-size: 2rem;
     padding: 20px 40px;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     border-radius: 2px;
     font-weight: bold;
+    border: 1px solid $white;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 4px 8px 0 rgba(0,0,0,0.2);
+    &:hover {
+      background-color: $white;
+      color: $black;
+      transition: 0.5s;
+    }
   }
 }
