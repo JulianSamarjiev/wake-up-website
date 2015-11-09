@@ -1,1 +1,8 @@
 .DS_Store
+
+# Ignore Sass' cache
+/.sass-cache
+
+# Ignore CSS & Map File
+*.css
+*.map
