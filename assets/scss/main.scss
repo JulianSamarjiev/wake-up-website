@@ -3,7 +3,7 @@ $black: #333;
 $white: #fff;
 $red: #FF0001;
 $dark-red: #AD0001;
-$dark-blue: #01A0C7;
+$dark-blue: darken(#01A0C7, 10%);
 
 .hero {
   background-color: $dark-blue;
