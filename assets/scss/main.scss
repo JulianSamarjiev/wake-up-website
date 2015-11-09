@@ -3,18 +3,13 @@ $black: #333;
 $white: #fff;
 $red: #FF0001;
 $dark-red: #AD0001;
+$dark-blue: #006991;
 
 .hero {
-  background-color: $black;
+  background-color: $dark-blue;
 }
-.hero-text-box {
-  background-color: $dark-red;
-  text-align: center;
-  margin: 100px auto;
-  height: 160px;
-  width: 200px;
-  padding: 10px;
-  border-radius: 2px;
+.hero-text {
+  padding-top: 10%;
 }
 .hero-text-one {
   color: $white;
@@ -33,4 +28,19 @@ $dark-red: #AD0001;
   margin-top: -77px;
   font-weight: bold;
   text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.6);
+}
+.hero-cta {
+  text-align: center;
+  margin: 100px 0;
+  a {
+    color: $dark-red;
+    background: rgba(255,255,255,0.5);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 20px 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    font-weight: bold;
+  }
 }
